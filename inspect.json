@@ -1,0 +1,81 @@
+{
+  "id": "dpl_2P3TJTFNXQaWtt3dv1m1qkP8btkX",
+  "name": "swiftparcel-backend",
+  "url": "swiftparcel-backend-kqxm5gwc9-sabbirthenineteenth.vercel.app",
+  "target": "production",
+  "readyState": "READY",
+  "createdAt": 1787944000887,
+  "aliases": [
+    "swiftparcel-backend.vercel.app",
+    "swiftparcel-backend-sabbirthenineteenth.vercel.app"
+  ],
+  "builds": [
+    {
+      "id": "bld_bu7w6zd3y",
+      "deploymentId": "dpl_2P3TJTFNXQaWtt3dv1m1qkP8btkX",
+      "entrypoint": ".",
+      "readyState": "READY",
+      "readyStateAt": 1787944000124,
+      "createdAt": 1787944000124,
+      "createdIn": "sfo1",
+      "use": "@vercel/vc-build",
+      "config": {
+        "framework": "hono",
+        "nodeVersion": "24.x",
+        "projectCreatedAt": 1787912235732,
+        "vercelConfig": {
+          "$schema": "https://openapi.vercel.sh/vercel.json",
+          "name": "swiftparcel-backend",
+          "version": 2
+        }
+      },
+      "middleware": [],
+      "output": [
+        {
+          "prerender": null,
+          "type": "lambda",
+          "path": "index",
+          "digest": "prj_teJqv8Li15Rx8Se3kmN1wu92XbY3/832abf19c0b2c64b2ff7ab2def0bb74bb02c88a794e1a01c9fb76b949a9d9985",
+          "mode": 49590,
+          "size": 441601,
+          "lambda": {
+            "functionName": "team_QGj5GyfJMI0DL3Hl5iYp9Itk-3eebb3ee68c36f10c8a6eeacbb12f1f86c",
+            "deployedTo": [
+              "iad1"
+            ],
+            "runtime": "nodejs24.x",
+            "memorySize": 2048,
+            "timeout": 300,
+            "layers": [
+              "arn:aws:lambda:AWS_REGION_PLACEHOLDER:977805900156:layer:vercel-rusty-runtime-nodejs-1_51_1-production-4b76abf33a-AWS_ARCH_PLACEHOLDER:1"
+            ]
+          },
+          "edge": null
+        },
+        {
+          "prerender": null,
+          "type": "lambda",
+          "path": "api/[...route]",
+          "digest": "prj_teJqv8Li15Rx8Se3kmN1wu92XbY3/1a5259b86a0d31e0abb6d5cf78f937cf037c03703c7b794c306b59510766b595",
+          "mode": 49590,
+          "size": 443166,
+          "lambda": {
+            "functionName": "team_QGj5GyfJMI0DL3Hl5iYp9Itk-838052db4471b6f849d7881d3c4ee42dc4",
+            "deployedTo": [
+              "iad1"
+            ],
+            "runtime": "nodejs24.x",
+            "memorySize": 2048,
+            "timeout": 300,
+            "layers": [
+              "arn:aws:lambda:AWS_REGION_PLACEHOLDER:977805900156:layer:vercel-rusty-runtime-nodejs-1_51_1-production-4b76abf33a-AWS_ARCH_PLACEHOLDER:1"
+            ]
+          },
+          "edge": null
+        }
+      ],
+      "fingerprint": null
+    }
+  ],
+  "contextName": "sabbirthenineteenth"
+}
